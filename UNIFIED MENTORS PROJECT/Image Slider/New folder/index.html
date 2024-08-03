@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Slider </title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body oncontextmenu="return false">
+  <div class="background"></div>
+  <div class="slider-container">
+    <div class="slider">
+      <div class="slide">
+        <img src="5.jpg" alt="Image 1">
+      </div>
+      <div class="slide">
+        <img src="4.jpg" alt="Image 2">
+      </div>
+      <div class="slide">
+        <img src="6.jpg" alt="Image 3">
+      </div>
+      <div class="slide">
+        <img src="7.jpg" alt="Image 4">
+      </div>
+    </div>
+    <div class="buttons">
+      <button class="prev" onclick="prevSlide()">&#10094;</button>
+      <button class="next" onclick="nextSlide()">&#10095;</button>
+    </div>
+    <button class="view-btn" onclick="viewFullScreen()">View</button>
+  </div>
+  <script src="script.js"></script>
+  <div class="signature">
+    クッテン
+    </div>
+</body>
+</html>
